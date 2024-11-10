@@ -1,3 +1,6 @@
+// Description: Main JS file for the theme
+// Version: 1.0
+//This is the main JS file for the theme. All custom JS code will be written in this file.
 $(document).ready(function ($) {
     "use strict";
 

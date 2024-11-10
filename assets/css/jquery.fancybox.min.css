@@ -1,3 +1,14 @@
+/* This is the css file for the fancybox plugin */
+/*!
+ * fancyBox - jQuery Plugin
+ * version: 3.5.7 (Thu, 17 Jun 2021)
+ * @requires jQuery v1.9 or later
+ *
+ * Examples at http://fancyapps.com/fancybox/
+ * License: fancyBox is licensed under the GPL and MIT licenses
+ * http://www.opensource.org/licenses/gpl-license.php
+ * http://www.opensource.org/licenses/mit-license.php
+ */
 body.compensate-for-scrollbar {
     overflow: hidden
 }
@@ -16,6 +27,18 @@ body.compensate-for-scrollbar {
 
 .fancybox-container {
     -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    backface-visibility: hidden;
+    backface-visibility: hidden;
+    backface-visibility: hidden;
+    backface-visibility: hidden;
+    backface-visibility: hidden;
+    backface-visibility: hidden;
+    backface-visibility: hidden;
+    backface-visibility: hidden;
+    backface-visibility: hidden;
+    backface-visibility: hidden;
+    backface-visibility: hidden;
     height: 100%;
     left: 0;
     outline: none;
@@ -119,7 +142,7 @@ body.compensate-for-scrollbar {
 }
 
 .fancybox-slide {
-    -webkit-backface-visibility: hidden;
+    
     display: none;
     height: 100%;
     left: 0;
@@ -180,7 +203,6 @@ body.compensate-for-scrollbar {
 
 .fancybox-slide--image .fancybox-content {
     animation-timing-function: cubic-bezier(.5, 0, .14, 1);
-    -webkit-backface-visibility: hidden;
     background: transparent;
     background-repeat: no-repeat;
     background-size: 100% 100%;
